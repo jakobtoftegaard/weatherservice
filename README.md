@@ -17,14 +17,15 @@ longitude: geolocation longitude (require latitude set)
 If multiple arguments are will they be prioritized in the following order: areakey, geolocation, IP.
 
 The location service has the following functions 
-get_location_by_ip 
+    
+      get_location_by_ip 
 
 params:
 
 ip (required): ip address
 
 
-get_location_by_geo_position
+      get_location_by_geo_position
 
 params
 
