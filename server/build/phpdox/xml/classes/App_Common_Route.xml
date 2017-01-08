@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="App\Common\Route" namespace="App\Common" name="Route" abstract="false" final="false" start="3" end="41">
+  <file path="/home/jato/Project/uberExercise/server/App/Common" file="Route.php" realpath="/home/jato/Project/uberExercise/server/App/Common/Route.php" size="1200" time="2017-01-07T14:01:16+00:00" unixtime="1483797676" sha1="94201d61a6dc6c80e060f25443546b5e65564760" relative="Common/Route.php"/>
+  <member name="_instance" visibility="private" static="true" line="5"/>
+  <constructor name="__construct" start="6" end="9" abstract="false" final="false" static="false" visibility="private"/>
+  <method name="route" start="10" end="34" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="request" byreference="false" type="object">
+      <type full="App\Common\Request" namespace="App\Common" name="Request"/>
+    </parameter>
+    <parameter name="response" byreference="false" type="object">
+      <type full="App\Common\Response" namespace="App\Common" name="Response"/>
+    </parameter>
+  </method>
+  <method name="getInstance" start="35" end="40" abstract="false" final="false" static="true" visibility="public"/>
+</class>

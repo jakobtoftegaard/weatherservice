@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<source xmlns="http://xml.phpdox.net/src">
+  <dir name="/home/jato/Project/uberExercise/server/App">
+    <dir name="View">
+      <file name="View.php" size="841" time="2017-01-07T14:41:20+00:00" unixtime="1483800080" sha1="ddaafbe343a5b5f8433ced2e64a8912129ea42bf" xml="tokens/View/View.php.xml"/>
+    </dir>
+    <dir name="Config">
+      <file name="config.php" size="86" time="2017-01-07T11:41:38+00:00" unixtime="1483789298" sha1="8ade0f8702280f2d27ddc2a80b42da4441110452" xml="tokens/Config/config.php.xml"/>
+    </dir>
+    <dir name="Common">
+      <file name="Configure.php" size="1644" time="2017-01-07T11:56:12+00:00" unixtime="1483790172" sha1="ff43322453f93aae78e0d66c3e3f1c047351f3df" xml="tokens/Common/Configure.php.xml"/>
+      <file name="Route.php" size="1200" time="2017-01-07T14:01:16+00:00" unixtime="1483797676" sha1="94201d61a6dc6c80e060f25443546b5e65564760" xml="tokens/Common/Route.php.xml"/>
+      <file name="Response.php" size="104" time="2017-01-03T16:30:08+00:00" unixtime="1483461008" sha1="ed200c8c57bd5d398c920e6207b8ab999661aa30" xml="tokens/Common/Response.php.xml"/>
+      <file name="Dispatcher.php" size="1172" time="2017-01-07T13:59:32+00:00" unixtime="1483797572" sha1="7018a0a93f9a208a922292a43147c37194334190" xml="tokens/Common/Dispatcher.php.xml"/>
+      <file name="Request.php" size="744" time="2017-01-08T08:57:18+00:00" unixtime="1483865838" sha1="630a58bad5d82fcfcad95c8b8cbf393e8aebd71f" xml="tokens/Common/Request.php.xml"/>
+    </dir>
+    <dir name="Controller">
+      <file name="LocationController.php" size="837" time="2017-01-07T15:00:17+00:00" unixtime="1483801217" sha1="58965aa3618ffafcd09e4c744a249bec225ba64f" xml="tokens/Controller/LocationController.php.xml"/>
+      <file name="Controller.php" size="762" time="2017-01-07T13:55:22+00:00" unixtime="1483797322" sha1="1ddf83faff7e5bce94d1220d1d00d428a8c6ad3f" xml="tokens/Controller/Controller.php.xml"/>
+      <file name="WeatherController.php" size="1362" time="2017-01-08T09:05:09+00:00" unixtime="1483866309" sha1="fbeb2f189aeaa2c4f10524afe663b396306962dc" xml="tokens/Controller/WeatherController.php.xml"/>
+    </dir>
+    <dir name="Model">
+      <file name="Weather.php" size="87" time="2017-01-07T13:40:48+00:00" unixtime="1483796448" sha1="aecb1bd3da16ce638fae6429ad689bfa599e27c7" xml="tokens/Model/Weather.php.xml"/>
+      <file name="Model.php" size="140" time="2017-01-07T14:04:32+00:00" unixtime="1483797872" sha1="a5ac25d908b6ff987fea4b9c5181e5f91e4549d7" xml="tokens/Model/Model.php.xml"/>
+      <file name="AccuWeather.php" size="2895" time="2017-01-07T15:22:21+00:00" unixtime="1483802541" sha1="ce2d5f702d970a975a5cb36314a7c4a69070bb63" xml="tokens/Model/AccuWeather.php.xml"/>
+    </dir>
+  </dir>
+</source>

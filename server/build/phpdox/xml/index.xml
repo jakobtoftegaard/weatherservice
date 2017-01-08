@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index xmlns="http://xml.phpdox.net/src" basedir="/home/jato/Project/uberExercise/server/App">
+  <namespace name="App\View">
+    <class name="View" src="View/View.php" xml="classes/App_View_View.xml"/>
+  </namespace>
+  <namespace name="App\Common">
+    <class name="Configure" src="Common/Configure.php" xml="classes/App_Common_Configure.xml"/>
+    <class name="Route" src="Common/Route.php" xml="classes/App_Common_Route.xml"/>
+    <class name="Response" src="Common/Response.php" xml="classes/App_Common_Response.xml"/>
+    <class name="Dispatcher" src="Common/Dispatcher.php" xml="classes/App_Common_Dispatcher.xml"/>
+    <class name="Request" src="Common/Request.php" xml="classes/App_Common_Request.xml"/>
+  </namespace>
+  <namespace name="App\Controller">
+    <class name="LocationController" src="Controller/LocationController.php" xml="classes/App_Controller_LocationController.xml"/>
+    <class name="Controller" src="Controller/Controller.php" xml="classes/App_Controller_Controller.xml"/>
+    <class name="WeatherController" src="Controller/WeatherController.php" xml="classes/App_Controller_WeatherController.xml"/>
+  </namespace>
+  <namespace name="App\Model">
+    <class name="Weather" src="Model/Weather.php" xml="classes/App_Model_Weather.xml"/>
+    <class name="Model" src="Model/Model.php" xml="classes/App_Model_Model.xml"/>
+    <class name="AccuWeather" src="Model/AccuWeather.php" xml="classes/App_Model_AccuWeather.xml"/>
+  </namespace>
+</index>

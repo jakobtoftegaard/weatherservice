@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="App\Common\Response" namespace="App\Common" name="Response" abstract="false" final="false" start="3" end="9">
+  <file path="/home/jato/Project/uberExercise/server/App/Common" file="Response.php" realpath="/home/jato/Project/uberExercise/server/App/Common/Response.php" size="104" time="2017-01-03T16:30:08+00:00" unixtime="1483461008" sha1="ed200c8c57bd5d398c920e6207b8ab999661aa30" relative="Common/Response.php"/>
+  <constructor name="__construct" start="5" end="8" abstract="false" final="false" static="false" visibility="public"/>
+</class>

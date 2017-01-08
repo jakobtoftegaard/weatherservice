@@ -1,0 +1,32 @@
+<html lang="en" >
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <head>
+        <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+        <script src="/js/main.js?version=0.1"></script>
+    </head>
+    <body>
+        <h1>
+            Weather service
+        </h1>
+            <div id="weather-container">
+                <div class="location-selector">
+                    <label for="location-lookup-method">Localization method</label>
+                    <select id="locationLookupMethod" name="location-lookup-method">
+                        <option value="ip">IP-based</option>
+                        <option value="geo">Geo-based</option>
+                    </select>
+                </div>
+                <div id="output-panel">
+                    <div class="error">
+                        
+                    </div>
+                    <div class="content">
+                        
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>

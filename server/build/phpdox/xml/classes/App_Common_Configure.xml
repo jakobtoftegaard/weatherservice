@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="App\Common\Configure" namespace="App\Common" name="Configure" abstract="false" final="false" start="4" end="72">
+  <file path="/home/jato/Project/uberExercise/server/App/Common" file="Configure.php" realpath="/home/jato/Project/uberExercise/server/App/Common/Configure.php" size="1644" time="2017-01-07T11:56:12+00:00" unixtime="1483790172" sha1="ff43322453f93aae78e0d66c3e3f1c047351f3df" relative="Common/Configure.php"/>
+  <member name="_configData" visibility="private" static="true" line="6"/>
+  <method name="init" start="7" end="10" abstract="false" final="false" static="true" visibility="public"/>
+  <method name="read" start="11" end="33" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="key" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="write" start="34" end="52" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="key" byreference="false" type="{unknown}"/>
+    <parameter name="value" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="check" start="53" end="71" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="key" byreference="false" type="{unknown}"/>
+  </method>
+</class>

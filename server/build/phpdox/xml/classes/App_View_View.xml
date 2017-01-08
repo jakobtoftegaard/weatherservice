@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="App\View\View" namespace="App\View" name="View" abstract="false" final="false" start="3" end="33">
+  <file path="/home/jato/Project/uberExercise/server/App/View" file="View.php" realpath="/home/jato/Project/uberExercise/server/App/View/View.php" size="841" time="2017-01-07T14:41:20+00:00" unixtime="1483800080" sha1="ddaafbe343a5b5f8433ced2e64a8912129ea42bf" relative="View/View.php"/>
+  <member name="viewTemplate" visibility="private" static="false" line="5"/>
+  <member name="varData" visibility="private" static="false" line="6"/>
+  <constructor name="__construct" start="7" end="11" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="setViewTemplate" start="12" end="15" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="viewTemplate" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="set" start="16" end="19" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="varName" byreference="false" type="{unknown}"/>
+    <parameter name="varVal" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="render" start="20" end="32" abstract="false" final="false" static="false" visibility="public"/>
+</class>

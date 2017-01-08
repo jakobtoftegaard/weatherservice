@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="App\Controller\WeatherController" namespace="App\Controller" name="WeatherController" abstract="false" final="false" start="5" end="38">
+  <file path="/home/jato/Project/uberExercise/server/App/Controller" file="WeatherController.php" realpath="/home/jato/Project/uberExercise/server/App/Controller/WeatherController.php" size="1362" time="2017-01-08T09:05:09+00:00" unixtime="1483866309" sha1="fbeb2f189aeaa2c4f10524afe663b396306962dc" relative="Controller/WeatherController.php"/>
+  <extends full="App\Controller\Controller" namespace="App\Controller" name="Controller"/>
+  <member name="locationModel" visibility="public" static="false" line="7"/>
+  <member name="weatherModel" visibility="public" static="false" line="8"/>
+  <method name="beforeAction" start="9" end="13" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="get_todays_weather" start="14" end="37" abstract="false" final="false" static="false" visibility="public"/>
+  <parent full="App\Controller\Controller" namespace="App\Controller" name="Controller">
+    <member name="request" visibility="public" static="false" line="5"/>
+    <member name="response" visibility="public" static="false" line="6"/>
+    <constructor name="__construct" start="8" end="13" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="request" byreference="false" type="{unknown}"/>
+      <parameter name="response" byreference="false" type="{unknown}"/>
+    </constructor>
+    <method name="beforeAction" start="14" end="17" abstract="false" final="false" static="false" visibility="public"/>
+    <method name="invokeAction" start="18" end="23" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="action" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="set" start="24" end="27" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="key" byreference="false" type="{unknown}"/>
+      <parameter name="value" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="render" start="28" end="31" abstract="false" final="false" static="false" visibility="public"/>
+  </parent>
+</class>

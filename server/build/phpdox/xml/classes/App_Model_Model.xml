@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="App\Model\Model" namespace="App\Model" name="Model" abstract="true" final="false" start="3" end="9">
+  <file path="/home/jato/Project/uberExercise/server/App/Model" file="Model.php" realpath="/home/jato/Project/uberExercise/server/App/Model/Model.php" size="140" time="2017-01-07T14:04:32+00:00" unixtime="1483797872" sha1="a5ac25d908b6ff987fea4b9c5181e5f91e4549d7" relative="Model/Model.php"/>
+  <method name="__contruct" start="5" end="8" abstract="false" final="false" static="false" visibility="public"/>
+  <extenders>
+    <extender full="App\Model\Weather" namespace="App\Model" name="Weather"/>
+    <extender full="App\Model\AccuWeather" namespace="App\Model" name="AccuWeather"/>
+  </extenders>
+</class>
